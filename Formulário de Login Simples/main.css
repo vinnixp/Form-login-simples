@@ -1,0 +1,87 @@
+.container {
+    background: #000000;
+}
+
+.container .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F4F4F;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    height: 450px;
+    border-radius: 50px;
+    width: 35%;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.box-login input {
+    padding-left: 10px;
+    height: 25px;
+    width: 55vh;
+    transition: 0.5s;
+    border: #2F4F4F;
+    display: flex;
+    border-radius: 20px;
+    background: rgb(149, 149, 149);
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+
+.box-login input:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.box-login button {
+    padding: 12px;
+    margin-top: 10px;
+    width: 30vh;
+    background-color: #00cd2c;
+    border: 2px solid #fffefe;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+
+.box-login button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+.box-title {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.box-title .logo {
+    margin-top: 5px;
+    margin-left: 4.9vh;
+    width: 150px;
+    height: 150px;
+    transition: 0.5s;
+}
+
+.box-title .logo:hover {
+    transform: scale(1.10);
+}
+
+
