@@ -10,6 +10,26 @@
     margin-top: 50px;
 }
 
+
+.box-title {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.box-title .logo {
+    margin-top: 5px;
+    margin-left: 4.9vh;
+    width: 150px;
+    height: 150px;
+    transition: 0.5s;
+}
+
+.box-title .logo:hover {
+    transform: scale(1.10);
+}
+
 .box-login {
     display: flex;
     flex-direction: column;
@@ -65,23 +85,5 @@
     transform: scale(1.05);
 }
 
-.box-title {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-}
-
-.box-title .logo {
-    margin-top: 5px;
-    margin-left: 4.9vh;
-    width: 150px;
-    height: 150px;
-    transition: 0.5s;
-}
-
-.box-title .logo:hover {
-    transform: scale(1.10);
-}
 
 
